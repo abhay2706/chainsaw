@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+          "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+          "http://www.hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+        <hibernate-mapping>
+        <class name="SignupData" table="SignupData">
+        <id column="Aadhar" name="Aadhar" type="java.lang.String" />
+        <property column="FirstName" name="FirstName" type="java.lang.String" />
+        <property column="FatherName" name="FatherName" type="java.lang.String" />
+        <property column="LastName" name="LastName" type="java.lang.String" />
+        <property column="Gender" name="Gender" type="java.lang.String" />
+        <property column="Email" name="Email" type="java.lang.String" />
+    	<property column="MobileNum" name="MobileNum" type="java.lang.String" />
+    	<property column="Password" name="Password" type="java.lang.String" />
+    	</class>
+    	
+        </hibernate-mapping>
+          
+          
+          
